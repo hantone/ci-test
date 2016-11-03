@@ -1,0 +1,20 @@
+{
+  "name": "ci-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "pretest": "eslint src/**/*.js",
+    "test": "mocha --color --reporter spec src/**/*.test.js"
+  },
+  "author": "",
+  "dependencies": {
+    "lodash": "^4.16.4",
+    "eslint": "^3.6.1",
+    "eslint-config-airbnb-base": "^8.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "expect": "^1.20.2",
+    "mocha": "^3.1.0",
+    "sinon": "^1.17.6"
+  }
+}
