@@ -1,3 +1,4 @@
-machine:
-  services:
-    - docker
+language: node_js
+node_js:
+  - "4.3.0"
+  
